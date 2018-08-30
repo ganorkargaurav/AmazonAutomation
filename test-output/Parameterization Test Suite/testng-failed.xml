@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Parameterization Test Suite]">
+  <test thread-count="5" name="Testing Parameterization(failed)">
+    <classes>
+      <class name="amazonAssignment.Amazon">
+        <methods>
+          <include name="searchAndAdd" invocation-numbers="2"/>
+          <include name="setupClass"/>
+        </methods>
+      </class> <!-- amazonAssignment.Amazon -->
+    </classes>
+  </test> <!-- Testing Parameterization(failed) -->
+</suite> <!-- Failed suite [Parameterization Test Suite] -->

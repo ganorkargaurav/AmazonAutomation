@@ -1,0 +1,8 @@
+<suite name="Parameterization Test Suite">
+	<test name="Testing Parameterization">
+		<classes>
+			<class name="FirstScripts.AmazonMen" />
+			<class name="FirstScripts.AmazonSearchTV" />
+		</classes>
+	</test>
+</suite>
